@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.main_div{
+  height: 100Vh;
+  width: 100%;
+  background-color: cornflowerblue;
+  display: grid;
+  place-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo{
+  width: 20vw;
+  height: auto;
+  background-color: turquoise;
+  border-radius: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading_todo{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(25, 187, 187);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title{
+  display: grid;
+  place-items: center;
+  color: rgb(5, 116, 33);
+}
+.add_todo{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  /* height: 100%; */
+}
+.add_todo>input{
+  width: 80%;
+  /* height: 100%; */
+  border-style: none;
+  outline: none;
+  font-weight: 100;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.add_todo>button{
+  border: none;
+  font-weight: 100;
+  color: red;
+  font-size: 20px;
+  border-radius: 50px;
+  font-weight: 900;
+  cursor: pointer;  
+}
+.lists{
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: rgb(2, 90, 2);
+}
+.list>span{
+  font-size: 10px;
+  padding-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.items_list{
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.items_list{
+  list-style: none;
+  padding-left: 10px;
+  /* width: 50%; */
 }
+
+.list_action>button{
+  border-radius: 10px;
+  /* width: 50%; */
+  cursor: pointer;
+  font-size: 20px;
+ background-color: rgb(99, 209, 176);
+  border-style: none;
+  margin: 2px;
+}
+/* .list_action>button>span{
+
+} */
