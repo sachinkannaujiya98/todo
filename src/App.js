@@ -30,7 +30,7 @@ const App = () => {
   return (
     <>
       <div className="main_div">
-        <h1>Developed By Sachin Using ReactJs</h1>
+        <h1>Developed By Sachin Using ReactJs Only in desktop mode</h1>
         <div className="todo">
           <h2 className="title">TO DO</h2>
           <div className="heading_todo">
