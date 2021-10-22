@@ -1,13 +1,16 @@
-.main_div{
-  height: 100Vh;
-  width: 100%;
+html{
   background-color: cornflowerblue;
+}
+.main_div{
+  height: 70%;
+  width: 100%;
+ 
   display: grid;
   place-items: center;
 }
 .todo{
   width: 20vw;
-  height: auto;
+  height: 100vh;
   background-color: turquoise;
   border-radius: 10px;
 }
